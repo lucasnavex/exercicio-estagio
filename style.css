@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+}
+.cadastro {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cadastro input[type="text"],
+.cadastro input[type="radio"] {
+    width: calc(100% - 20px); /* Leva em consideração o padding */
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.genero-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.genero-label input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.5); /* Aumenta o tamanho do círculo */
+}
